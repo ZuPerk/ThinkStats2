@@ -24,3 +24,7 @@ def main(script):
 
 if __name__ == '__main__':
     main(*sys.argv)
+
+
+df = nsfg.ReadFemPreg()
+print(df['outcome'].value_counts(sort=False))
