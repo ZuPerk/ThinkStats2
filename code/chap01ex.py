@@ -28,3 +28,4 @@ if __name__ == '__main__':
 
 df = nsfg.ReadFemPreg()
 print(df['outcome'].value_counts(sort=False))
+#test
